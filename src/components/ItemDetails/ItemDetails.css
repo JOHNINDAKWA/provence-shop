@@ -164,12 +164,18 @@
 }
 
 .btns-cart .shop {
-  padding: 15px;
-  font-size: 1em;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   cursor: pointer;
-  background-color: #00a86b;
+  background-color: #6cac37;
   color: #fff;
+}
+
+.shop img{
+  width: 30px;
 }
 
 .payment-more-info {
