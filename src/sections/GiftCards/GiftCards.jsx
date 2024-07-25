@@ -46,7 +46,7 @@ const GiftCards = () => {
           <div className="form-field">
             <h2>Denominations</h2>
             <div className="form-field__swatch-options">
-              {["Kshs.25", "Kshs.50", "Kshs.100", "Kshs.150", "Kshs.200", "Kshs.300", "Kshs.500", "Kshs.1000"].map((value) => (
+              {["Kshs.250", "Kshs.500", "Kshs.1000", "Kshs.1500", "Kshs.2000", "Kshs.3000", "Kshs.5000", "Kshs.10000"].map((value) => (
                 <label
                   key={value}
                   className={`form-swatch-item ${
