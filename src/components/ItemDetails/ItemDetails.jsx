@@ -7,6 +7,8 @@ import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import "./ItemDetails.css";
 import { FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { CartContext } from "../CartContext";
+import MPesa from "../../images/mpesa-icon.png"
+
 
 const ItemDetails = () => {
   const { id, category } = useParams();
@@ -114,7 +116,7 @@ const ItemDetails = () => {
 
           <div className="btns-cart">
             <button className="cart" onClick={handleAddToCart}>Add to Cart</button>
-            <button className="shop">Buy with Shop Pay</button>
+            <button className="shop"><img src={MPesa} alt="" />Buy with Mpesa</button>
           </div>
 
           <div className="payment-more-info">
