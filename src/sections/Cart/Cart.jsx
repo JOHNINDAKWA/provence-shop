@@ -4,6 +4,7 @@ import { TfiClose } from "react-icons/tfi";
 import { FaPaypal } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { CartContext } from "../../components/CartContext";
+import Pesa from "../../images/mpesa.png"
 
 const Cart = ({ toggleCartVisibility }) => {
   const { cartItems, removeFromCart, incrementQuantity, decrementQuantity } = useContext(CartContext);
@@ -63,6 +64,7 @@ const Cart = ({ toggleCartVisibility }) => {
               <p>Taxes and shipping calculated at checkout</p>
 
               <button className="btn checkout">CHECKOUT</button>
+              <button className="m-pesa"><img src={Pesa} alt="" /></button>
               <button className="shop-pay">Shop<span>Pay</span></button>
               <button className="paypal">
                 <FaPaypal className="paypal-icon" />
