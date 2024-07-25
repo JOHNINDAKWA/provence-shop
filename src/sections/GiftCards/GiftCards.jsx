@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import "./GiftCards.css";
+import MPesa from "../../images/mpesa-icon.png"
+
 import { FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const GiftCards = () => {
@@ -77,7 +79,7 @@ const GiftCards = () => {
 
           <div className="btns-cart">
             <button className="cart">Add to Cart</button>
-            <button className="shop">Buy with Shop Pay</button>
+            <button className="shop"><img src={MPesa} alt="" />Buy with Mpesa</button>
           </div>
 
           <div className="payment-more-info">
