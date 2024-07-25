@@ -1,5 +1,6 @@
 import "./Home.css";
 import home from "../../images/home.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
         <div className="overlay">
           <h2>The John Indakwa Camera Strap</h2>
           <p>Custom Designed • Made in France • Made for Life</p>
-          <button className="btn">SHOP CAMERA STRAPS</button>
+          <Link to="/phonecases" className="btn">
+          SHOP CAMERA STRAPS
+          </Link>
         </div>
       </div>
       <div className="block1">
@@ -20,8 +23,7 @@ const Home = () => {
         />
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="index-shop1">
         <div className="index-shop-left">
@@ -39,7 +41,9 @@ const Home = () => {
             </p>
           </div>
 
-          <button className="btn">SHOP NOW</button>
+          <Link to="/fineart" className="btn">
+            SHOP NOW
+          </Link>
         </div>
 
         <div className="index-shop-right">
@@ -50,8 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="index-shop1">
         <div className="index-shop-right">
@@ -75,13 +78,13 @@ const Home = () => {
             </p>
           </div>
 
-          <button className="btn">SHOP NOW</button>
+          <Link to="/phonecases" className="btn">
+            SHOP NOW
+          </Link>
         </div>
       </div>
 
-
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
       <div className="block2">
         <video
           playsInline
@@ -106,12 +109,13 @@ const Home = () => {
         <div className="overlay2">
           <h2>Sketch, take notes, write a novel</h2>
           <p>Our grande journal is a blank slate for creativity.</p>
-          <button className="btn">SHOP NOW</button>
+          <Link to="/posters" className="btn">
+            SHOP NOW
+          </Link>
         </div>
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="mt">
         <div className="index-shop1">
@@ -128,11 +132,12 @@ const Home = () => {
               <p>Petite, lined journals you can take anywhere.</p>
             </div>
 
-            <button className="btn">SHOP POCKET JOURNALS</button>
+            <Link to="/phonecases" className="btn">
+            SHOP POCKET JOURNALS
+          </Link>
+           
           </div>
         </div>
-
-
 
         <div className="index-shop1">
           <div className="index-shop-right">
@@ -151,7 +156,9 @@ const Home = () => {
               </p>
             </div>
 
-            <button className="btn">SHOP GRANDE JOURNALS</button>
+            <Link to="/phonecases" className="btn">
+            SHOP GRANDE JOURNALS
+          </Link>
           </div>
         </div>
 
@@ -167,8 +174,8 @@ const Home = () => {
             <h2>Parisian Hairpins</h2>
             <div class="index-text">
               <p>
-                Our most popular piece from the John Indakwa x Cecile is back for
-                2024! Supply is limited.
+                Our most popular piece from the John Indakwa x Cecile is back
+                for 2024! Supply is limited.
               </p>
             </div>
 
@@ -185,44 +192,43 @@ const Home = () => {
         />
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="block3">
         <div className="block3-left">
           <div className="border3-left-container">
-          <h3>MEET JOHN</h3>
-          <h2>
-            John Indakwa is an artist and author living and working in Provence,
-            France.
-          </h2>
-          <p>
-            After leaving New York behind for what was supposed to be a one year
-            sabbatical, author and photographer John Indakwa has curated a life of
-            creation in Provence, in the South of France.{" "}
-          </p>
-          <p>
-            For the last six years John has built photographs, expanded her
-            family and most importantly, cultivated a legacy that feels as
-            authentic and filled with romanticism as the artworks she so
-            passionately produces.&nbsp;{" "}
-          </p>
-          <p>.</p>
-          <p>
-            Instagram:{" "}
-            <a
-              href="https://www.instagram.com/jamiebeck.co/"
-              title="https://www.instagram.com/jamiebeck.co/"
-            >
-              @johnindakwa.com
-            </a>
-          </p>
-          <p>
-            Web:{" "}
-            <a href="https://jamiebeck.co/" title="https://jamiebeck.co/">
-              johnindakwa.com
-            </a>
-          </p>
+            <h3>MEET JOHN</h3>
+            <h2>
+              John Indakwa is an artist and author living and working in
+              Provence, France.
+            </h2>
+            <p>
+              After leaving New York behind for what was supposed to be a one
+              year sabbatical, author and photographer John Indakwa has curated
+              a life of creation in Provence, in the South of France.{" "}
+            </p>
+            <p>
+              For the last six years John has built photographs, expanded her
+              family and most importantly, cultivated a legacy that feels as
+              authentic and filled with romanticism as the artworks she so
+              passionately produces.&nbsp;{" "}
+            </p>
+            <p>.</p>
+            <p>
+              Instagram:{" "}
+              <a
+                href="https://www.instagram.com/jamiebeck.co/"
+                title="https://www.instagram.com/jamiebeck.co/"
+              >
+                @johnindakwa.com
+              </a>
+            </p>
+            <p>
+              Web:{" "}
+              <a href="https://jamiebeck.co/" title="https://jamiebeck.co/">
+                johnindakwa.com
+              </a>
+            </p>
           </div>
         </div>
 
@@ -234,16 +240,16 @@ const Home = () => {
         </div>
       </div>
 
-            { /* NEW SECTION */}
+      {/* NEW SECTION */}
       <div className="index-shop2">
         <div className="index-shop-left2">
           <p>NEW!</p>
           <h2>Pop, lock and socket 🎵</h2>
           <div class="index-text2">
             <p>
-            The much requested Popsockets are finally here! Each is swappable so you can change the design or remove when you don't need it.
+              The much requested Popsockets are finally here! Each is swappable
+              so you can change the design or remove when you don't need it.
             </p>
-       
           </div>
 
           <button className="btn">SHOP POPSOCKETS</button>
@@ -257,7 +263,7 @@ const Home = () => {
         </div>
       </div>
 
-        { /* NEW SECTION */}
+      {/* NEW SECTION */}
       <div className="block1">
         <img
           src="https://cdn.shopify.com/s/files/1/0350/3305/5369/t/26/assets/Floret.png?v=1700639659"
@@ -265,17 +271,16 @@ const Home = () => {
         />
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="index-shop3">
         <div className="index-shop-left3">
           <h2>The Flowers of Provence</h2>
           <div class="index-text3">
             <p>
-            John's second book, the Flowers of Provence  <br /> published October, 2023. 
+              John's second book, the Flowers of Provence <br /> published
+              October, 2023.
             </p>
-       
           </div>
 
           <button className="btn">WHERE TO BUY</button>
@@ -289,8 +294,7 @@ const Home = () => {
         </div>
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
       <div className="block1">
         <img
           src="https://cdn.shopify.com/s/files/1/0350/3305/5369/t/26/assets/Vogue.png?v=1700639277"
@@ -298,12 +302,10 @@ const Home = () => {
         />
       </div>
 
-
-      { /* NEW SECTION */}
+      {/* NEW SECTION */}
 
       <div className="index-shop3">
-
-      <div className="index-shop-right3">
+        <div className="index-shop-right3">
           <img
             src="https://jamiebeck.co/cdn/shop/files/NYT-White-Badge_720x.jpg?v=1695718322"
             alt=""
@@ -314,18 +316,14 @@ const Home = () => {
           <h2>An American in Provence</h2>
           <div class="index-text3">
             <p>
-            The New York Times best seller "An American <br /> in Provence" is available in bookstores and online!
+              The New York Times best seller "An American <br /> in Provence" is
+              available in bookstores and online!
             </p>
-       
           </div>
 
           <button className="btn">WHERE TO BUY</button>
         </div>
-
-
       </div>
-
-
     </>
   );
 };
