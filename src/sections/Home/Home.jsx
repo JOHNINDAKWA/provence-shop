@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className="index-shop1">
         <div className="index-shop-left">
-          <p>The Jamie Camera Strap</p>
+          <p>The Indakwa Camera Strap</p>
           <h2>THE PROVENCE •&nbsp;Natural Beauty</h2>
           <div class="index-text">
             <p>
