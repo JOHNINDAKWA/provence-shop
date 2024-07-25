@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>All content and photography licensed by Ann Street Studio, inc.</p>
+        <p>All content and photography licensed by John Indakwa.</p>
       </div>
     </div>
   )
