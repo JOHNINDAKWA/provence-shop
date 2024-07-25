@@ -1,0 +1,212 @@
+.FineArt {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 20px;
+  }
+  
+  .FineArt-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sort-filter {
+    flex: 1 1 20%;
+    max-width: 20%;
+    background: #f4f4f4;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.033);
+    height: fit-content;
+  }
+  
+  .sort-filter h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(201, 199, 199, 0.458);
+    padding-bottom: 1rem;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sort, .filter, .price-range {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sort p, .filter h2, .price-range h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    padding: 7px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+  }
+  
+  .filter select, .price-range select {
+    margin-top: 10px;
+  }
+  
+  .art-cards {
+    flex: 1 1 80%;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .art-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  
+  .art-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .art-card img:hover {
+    transform: scale(1.1);
+  }
+  
+  .art-card p {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .art-card span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .previous, .next {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .numbering {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .numbering p {
+    cursor: pointer;
+  }
+  
+  .previous p, .next p {
+    margin: 0;
+  }
+  
+
+
+  
+
+
+@media (max-width: 1024px) {
+  .FineArt-container {
+    flex-direction: column;
+  }
+
+  .sort-filter {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .art-cards {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .art-card {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .sort-filter {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .art-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .art-card {
+    max-width: 100%;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  #price-range-dropdown {
+    display: none;
+  }
+
+  .sort,
+  .filter {
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .sort select,
+  .filter select {
+    width: 80%;
+  }
+
+  .sort p{
+    font-size: 1em;
+  
+  }
+
+  .filter h2 {
+    border-bottom: none;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  select {
+    font-size: 0.9em;
+  }
+
+  .poster-card img {
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .poster-card p {
+    font-size: 0.9em;
+  }
+
+  .poster-card span {
+    font-size: 0.9em;
+  }
+}

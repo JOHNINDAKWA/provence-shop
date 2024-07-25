@@ -1,0 +1,235 @@
+.Posters {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 20px;
+}
+
+.posters-container {
+  display: flex;
+  gap: 20px;
+}
+
+.sort-filter {
+  flex: 1 1 20%;
+  max-width: 20%;
+  height: fit-content;
+  background: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.033);
+}
+
+.sort-filter h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(201, 199, 199, 0.458);
+  padding-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sort,
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort p,
+.filter h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 7px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+#price-range {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#price-range label {
+  display: block;
+  margin-right: 5px;
+}
+
+#price-range input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.poster-cards {
+  flex: 1 1 80%;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.poster-card {
+  flex: 1 1 calc(20% - 20px);
+  max-width: calc(20% - 20px);
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.poster-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+}
+.poster-card img:hover {
+  transform: scale(1.1);
+}
+.poster-card p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.poster-card span {
+  font-weight: bold;
+  color: #333;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.previous,
+.next {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.numbering {
+  display: flex;
+  gap: 10px;
+}
+
+.numbering p {
+  cursor: pointer;
+}
+
+.previous p,
+.next p {
+  margin: 0;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .posters-container {
+    flex-direction: column;
+  }
+
+  .sort-filter {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .poster-cards {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .poster-card {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .sort-filter {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .poster-cards {
+    /* flex-direction: column; */
+  }
+
+  .poster-card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  #price-range-dropdown {
+    display: none;
+  }
+
+  .sort,
+  .filter {
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .sort select,
+  .filter select {
+    width: 80%;
+  }
+
+  .sort p{
+    font-size: 1em;
+  
+  }
+
+  .filter h2 {
+    border-bottom: none;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  select {
+    font-size: 0.9em;
+  }
+
+  .poster-card img {
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .poster-card p {
+    font-size: 0.9em;
+  }
+
+  .poster-card span {
+    font-size: 0.9em;
+  }
+}

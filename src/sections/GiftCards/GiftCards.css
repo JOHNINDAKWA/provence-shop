@@ -1,0 +1,209 @@
+.GiftCards {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .GiftCards-container {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .GiftCards-left {
+    flex: 1;
+  }
+  
+  .GiftCards-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .GiftCards-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .GiftCards-right h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .GiftCards-right span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #303030;
+    margin-bottom: 10px;
+  }
+  
+  .form-field {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .form-field h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-field__swatch-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 1;
+  }
+  
+  .form-swatch-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid #ddddddab;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .form-swatch-item input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .form-swatch-item.option--active {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .input-number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1.5rem 0;
+  }
+  
+  .input-number h4 {
+    margin: 0;
+  }
+  
+  .input-number-exact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-number-exact button {
+    background-color: #ffffff;
+    color: #303030;
+    border: none;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 1px solid #303030;
+    transition: background-color 0.3s;
+  }
+  
+  .input-number-exact button:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .input-number-exact input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1em;
+  }
+
+  
+  .input-number-exact input {
+    width: 60px;
+    text-align: center;
+  }
+  
+  .btns-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btns-cart .cart, .btns-cart .shop {
+    padding: 15px;
+    font-size: 1em;    
+    border: none;
+    cursor: pointer;
+  }
+
+  .cart{
+    background-color: #000;
+    color: #fff;
+  }
+
+  .shop{
+    background-color: #5a31f4;
+    color: #fff;
+  }
+  
+  .payment-more-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .payment-more-info .p-link {
+    color: #007BFF;
+    cursor: pointer;
+  }
+
+  .instagram{
+    color: #d62976;
+  }
+
+  .twitter{
+    color: #000;
+  }
+
+  .facebook{
+    color: #316FF6;
+  }
+  
+  .payment-more-info h3 {
+    margin: 16px 0;
+    font-size: 18px;
+  }
+  
+  .payment-more-info .p-gift {
+    margin-bottom: 10px;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 10px;
+    font-size: 1.5em;
+    color: #007BFF;
+    cursor: pointer;
+    margin: 5rem 0;
+  }
+  
+
+  @media (max-width: 768px) {
+
+    .GiftCards-container {
+      flex-direction: column;
+    }
+
+  }

@@ -1,0 +1,141 @@
+
+.PhoneCases {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #303030;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(201, 199, 199, 0.458);
+    padding-bottom: 1rem;
+  }
+  
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .breadcrumb-item a:hover {
+    text-decoration: underline;
+  }
+
+ 
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 3.5em;
+  }
+  
+  .header p {
+    font-size: 18px;
+  }
+
+
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    transition: 0.5s ease;
+  }
+
+  .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #333;
+    margin: 15px 10px;
+  }
+  
+  .card span {
+    font-size: 18px;
+    color: #e60023;
+    margin: 15px 10px;
+    display: block;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 5rem 0;
+  }
+
+  .navigation .next,  
+  .navigation .previous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  
+  .navigation p {
+    font-size: 18px;
+    color: #303030;
+    cursor: pointer;
+    margin: 3rem 0;
+  }
+  
+  .navigation p:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 1024px) {
+    .card {
+      width: calc(33.333% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(25% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(50% - 20px);
+      /* width: 100%; */
+    }
+  
+
+    .navigation p {
+      margin-bottom: 10px;
+    }
+  }
+  
