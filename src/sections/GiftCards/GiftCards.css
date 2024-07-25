@@ -141,11 +141,28 @@
     gap: 10px;
   }
   
-  .btns-cart .cart, .btns-cart .shop {
+  .btns-cart .cart {
     padding: 15px;
     font-size: 1em;    
     border: none;
     cursor: pointer;
+  }
+
+  .btns-cart .shop {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    background-color: #6cac37;
+    color: #fff;
+    padding: 7px;
+  }
+  
+  .btns-cart .shop:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px #3b6419c6;
   }
 
   .cart{
