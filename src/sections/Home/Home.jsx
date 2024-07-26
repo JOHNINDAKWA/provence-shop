@@ -9,7 +9,7 @@ const Home = () => {
         <img src={home} alt="Home Banner" />
         <div className="overlay">
           <h2>The John Indakwa Camera Strap</h2>
-          <p>Custom Designed • Made in France • Made for Life</p>
+          <p>Custom Designed • Made in Kenya • Made for Life</p>
           <Link to="/phonecases" className="btn">
           SHOP CAMERA STRAPS
           </Link>
@@ -32,7 +32,7 @@ const Home = () => {
           <div class="index-text">
             <p>
               Inspired by the natrual colors of the French countryside, this
-              hand-stitched camera strap is 100% made in in France. It's
+              hand-stitched camera strap is 100% made in in . It's
               adjustable from 41 to 46 inches, so you can find your perfect fit.
             </p>
             <p>
@@ -69,7 +69,7 @@ const Home = () => {
           <div class="index-text">
             <p>
               Inspired by classic Parisian chic, this hand-stitched camera strap
-              is 100% made in in France. It's adjustable from 41 to 46 inches,
+              is 100% made in in Kenya. It's adjustable from 41 to 46 inches,
               so you can find your perfect fit.
             </p>
             <p>
@@ -200,17 +200,17 @@ const Home = () => {
             <h3>MEET JOHN</h3>
             <h2>
               John Indakwa is an artist and author living and working in
-              Provence, France.
+              Nairobi, Kenya.
             </h2>
             <p>
-              After leaving New York behind for what was supposed to be a one
+              After leaving Kakamega behind for what was supposed to be a one
               year sabbatical, author and photographer John Indakwa has curated
-              a life of creation in Provence, in the South of France.{" "}
+              a life of creation in Provence, in the city of Juja.{" "}
             </p>
             <p>
-              For the last six years John has built photographs, expanded her
+              For the last six years John has built photographs, expanded his
               family and most importantly, cultivated a legacy that feels as
-              authentic and filled with romanticism as the artworks she so
+              authentic and filled with romanticism as the artworks he so
               passionately produces.&nbsp;{" "}
             </p>
             <p>.</p>
