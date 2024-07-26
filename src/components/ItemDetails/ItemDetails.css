@@ -7,15 +7,21 @@
 
 .item-details-container {
   display: flex;
-  gap: 80px;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 .item-details-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
+
 }
 
 .item-details-left img {
-  width: 100%;
+  width: fit-content;
+  object-fit: cover;
   height: auto;
   border-radius: 8px;
 }
@@ -172,6 +178,11 @@
   cursor: pointer;
   background-color: #6cac37;
   color: #fff;
+}
+
+.btns-cart .shop:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #6cac3774;
 }
 
 .shop img{
