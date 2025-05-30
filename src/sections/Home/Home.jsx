@@ -1,7 +1,7 @@
 import "./Home.css";
 import home from "../../images/home.jpg";
 import jonte from "../../images/jonte.png";
-import flower from "../../images/flower.png";
+import flower from "../../images/flower.jpeg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -286,7 +286,7 @@ const Home = () => {
         </div>
 
         <div className="index-shop-right3">
-          <img src={flower} alt="Home Banner" />
+          <img src={flower} alt="Flower" />
         </div>
       </div>
 
