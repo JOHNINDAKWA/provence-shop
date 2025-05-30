@@ -1,6 +1,7 @@
 import "./Home.css";
 import home from "../../images/home.jpg";
 import jonte from "../../images/jonte.png";
+import flower from "../../images/flower.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -273,10 +274,10 @@ const Home = () => {
 
       <div className="index-shop3">
         <div className="index-shop-left3">
-          <h2>The Flowers of Provence</h2>
+          <h2>The Flowers of Kakamega</h2>
           <div class="index-text3">
             <p>
-              John's second book, the Flowers of Provence <br /> published
+              John's second book, the Flowers of Kakamega <br /> published
               October, 2023.
             </p>
           </div>
@@ -285,10 +286,7 @@ const Home = () => {
         </div>
 
         <div className="index-shop-right3">
-          <img
-            src="https://jamiebeck.co/cdn/shop/files/tfop_720x.jpg?v=1700219602"
-            alt=""
-          />
+          <img src={flower} alt="Home Banner" />
         </div>
       </div>
 
