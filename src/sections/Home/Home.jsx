@@ -1,5 +1,6 @@
 import "./Home.css";
 import home from "../../images/home.jpg";
+import jonte from "../../images/jonte.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -233,10 +234,7 @@ const Home = () => {
         </div>
 
         <div className="block3-right">
-          <img
-            src="https://jamiebeck.co/cdn/shop/files/008_AAIP-Small-Print-PNG-1440_1080x.webp?v=1700639952"
-            alt=""
-          />
+          <img src={jonte} alt="Jonte Image" />
         </div>
       </div>
 
